@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="shortcut icon" href="img/512.png" type="image/x-icon">
+    <link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+         
+    <title>Selección de Personajes de Harry Potter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Select a character</h1>
+        <a class="button" href="index.html">Go back</a>
+        <div class="character-card">
+            <select id="character-select">
+                <option value="">Selecciona un personaje</option>
+                <option value="harry">Harry Potter</option>
+                <option value="hermione">Hermione Granger</option>
+                <option value="ron">Ron Weasley</option>
+                <option value="dumbledore">Albus Dumbledore</option>
+                <option value="snape">Severus Snape</option>
+                <option value="luna">Luna Lovegood</option>
+                <option value="cedric">Cedric Diggory</option>
+                <option value="voldemort">Lord Voldemort</option>
+                <option value="draco">Draco Malfoy</option>
+                <option value="sirius">Sirius Black</option>
+            </select>
+        </div>
+        <div id="character-info" class="hidden">
+            <div class="character-card">
+                <h2 id="character-name"></h2>
+                <img id="character-image" src="" alt="Character Image">
+                <p><strong>Casa de Hogwarts:</strong> <span id="character-house"></span></p>
+                <p><strong>Descripción:</strong> <span id="character-description"></span></p>
+                <p><strong>Hechizo más utilizado:</strong> <span id="character-spell"></span></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
